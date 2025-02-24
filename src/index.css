@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(192, 186, 177);
+}
+.container {
+  width: 20rem;
+  height: 20rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 2rem;
+}
+
+h1 {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: rgb(54, 60, 60);
+}
+
+.outer-container {
+  padding: 1rem;
+  display: flex;
+  gap: 2rem;
+  /* border: 1px solid green; */
+  width: fit-content;
+  margin-left: 20%;
+  margin-top: 10%;
+  text-align: center;
+}
+
+p{
+  font-size: large;
+  width: 13rem;
+  text-align: center;
+}
+
+.reviews-heading{
+  margin-top: 1%;
+  text-align: center;
+}
